@@ -476,13 +476,13 @@ def fig8():
 
 
 # Specify the path to the CSV file you want to read
-file_path = r'C:\Users\Bastian Barraza M\OneDrive\Documentos\Visualización de datos\Prueba 1\dataComplete.csv'
+file_path = r'dataComplete.csv'
 
 # Read the CSV file into a DataFrame
 df = pd.read_csv(file_path)
 
 # Specify the path to the CSV file you want to read
-file_path = r'C:\Users\Bastian Barraza M\OneDrive\Documentos\Visualización de datos\Prueba 1\dataGrouped.csv'
+file_path = r'dataGrouped.csv'
 
 # Read the CSV file into a DataFrame
 df_grouped = pd.read_csv(file_path)
